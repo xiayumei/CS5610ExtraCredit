@@ -1,0 +1,37 @@
+{
+  "name": "CS5610ExtraCreditNew",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "quagga": "^0.12.1",
+    "react": "16.8.3",
+    "react-art": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-native": "^0.59.5",
+    "react-native-camera": "^2.6.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-dom": "^0.5.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-qrcode-scanner": "^1.1.2",
+    "react-native-vector-icons": "^6.4.2",
+    "react-native-web": "^0.11.2",
+    "react-navigation": "^3.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/runtime": "7.4.4",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
